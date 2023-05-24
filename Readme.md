@@ -1,8 +1,8 @@
 ﻿**Etica SoliditySha3miner optmised by Dmitry (Dmitry#3011 on discord)**  
 
-This is the main miner used by Etica community to mine ETI since october 2022.
-Current latest public release version: 2.3.4
-Runs on Windows x64, HiveOS, EthOS, and Ubuntu.
+This is the main miner used by Etica community to mine ETI since october 2022.  
+Current latest public release version: 2.3.4  
+Runs on Windows x64, HiveOS, EthOS, and Ubuntu.  
 
 Built with .NET Core 2.2 SDK, VC++ 2017, gcc 4.8.5, nVidia CUDA SDK 10.0 64-bit, and AMD APP SDK v3.0.130.135 (OpenCL)
 .NET Core 2.1 can be downloaded from https://www.microsoft.com/net/download
