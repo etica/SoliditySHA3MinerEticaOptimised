@@ -22,12 +22,14 @@ https://bio.hiveos.farm/repo/SoliditySHA3Miner-2.3.4.tar.gz
 ## HOW TO RUN:
 
 **For windows:**  
-1. Edit EticaPool8081.cmd: Replace the address field with your Etica address (be careful not to put your private key instead!)  
+1. Edit EticaPool8081.cmd:  
+Replace the address field with your Etica address (be careful not to put your private key instead!)  
 2. Save the file  
 3.  Run EticaPool8081.cmd as admin (right click and the click on run as admin)  
 
 **For Linux:**  
-1. Edit EticaPool8081Linux.sh: Scroll to the right of file, find and replace address=0x9172ff7884CEFED19327aDaCe9C470eF1796105c by address=youraddresshere  
+1. Edit EticaPool8081Linux.sh:  
+Scroll to the right of file, find and replace address=0x9172ff7884CEFED19327aDaCe9C470eF1796105c by address=youraddresshere  
 2. Save the file  
 3. Run EticaPool8081Linux.sh  
 
