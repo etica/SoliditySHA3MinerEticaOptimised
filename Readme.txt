@@ -1,4 +1,4 @@
-﻿Etica SoliditySha3miner optmised by Dmitry.
+﻿**Etica SoliditySha3miner optmised by Dmitry.**
 This is the main miner used by Etica community to mine ETI since october 2022.
 Current latest public release version: 2.3.4
 Runs on Windows x64, HiveOS, EthOS, and Ubuntu.
@@ -18,17 +18,26 @@ https://bio.hiveos.farm/repo/SoliditySHA3Miner-2.3.4.tar.gz
 
 
 
-HOW TO RUN:
+## HOW TO RUN:
 
-For windows:
+**For windows:**
 -> Edit EticaPool8081.cmd: Replace the address field with your Etica address (be careful not to put your private key instead!)
 -> Save the file
 -> Run EticaPool8081.cmd as admin (right click and the click on run as admin)
 
-For Linux:
+**For Linux:**
 -> Edit EticaPool8081Linux.sh: Scroll to the right of file, find and replace address=0x9172ff7884CEFED19327aDaCe9C470eF1796105c by address=youraddresshere
 -> Save the file
 -> Run EticaPool8081Linux.sh
+
+
+# Version 2.3.4:
+- fixed AMD OPENCL memory leak
+- fixed fan and temp stats on HiveOS and in console (AMD/NVIDIA)
+- restore memclock on stop on HiveOS (if 810 was used) (NVIDIA)
+- added stopTemp and startTemp params (default: 90C and 80C) (AMD/NVIDIA)
+- added version info to HiveOS
+- stability improvements
 
 
 
