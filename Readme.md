@@ -1,4 +1,4 @@
-﻿**Etica SoliditySha3miner optmised by Dmitry.**  
+﻿**Etica SoliditySha3miner optmised by Dmitry (Dmitry#3011 on discord)**  
 
 This is the main miner used by Etica community to mine ETI since october 2022.
 Current latest public release version: 2.3.4
@@ -22,14 +22,14 @@ https://bio.hiveos.farm/repo/SoliditySHA3Miner-2.3.4.tar.gz
 ## HOW TO RUN:
 
 **For windows:**  
--> Edit EticaPool8081.cmd: Replace the address field with your Etica address (be careful not to put your private key instead!)  
--> Save the file  
--> Run EticaPool8081.cmd as admin (right click and the click on run as admin)  
+1. Edit EticaPool8081.cmd: Replace the address field with your Etica address (be careful not to put your private key instead!)  
+2. Save the file  
+3.  Run EticaPool8081.cmd as admin (right click and the click on run as admin)  
 
 **For Linux:**  
--> Edit EticaPool8081Linux.sh: Scroll to the right of file, find and replace address=0x9172ff7884CEFED19327aDaCe9C470eF1796105c by address=youraddresshere  
--> Save the file  
--> Run EticaPool8081Linux.sh  
+1. Edit EticaPool8081Linux.sh: Scroll to the right of file, find and replace address=0x9172ff7884CEFED19327aDaCe9C470eF1796105c by address=youraddresshere  
+2. Save the file  
+3. Run EticaPool8081Linux.sh  
 
 
 # Version 2.3.4:  
